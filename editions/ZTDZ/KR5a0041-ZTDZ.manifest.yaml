@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0041/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0041/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上修真體元妙道經
+  date: '2015-08-28 23:35:17.216105'
+  source:
+    repository: kanripo
+    path: KR5a0041
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0041_000-ZTDZ.yaml, hash: 'sha256:1687c391e68b92bdfce47f2bcc1018329be121887cecbab041cd030d1bbd4f57'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0041_000-ZTDZ.markers.yaml, hash: 'sha256:4bf8f7f1440deb911a77b6f016f8f49238531fe33f4dae9fdebd0b73ea5c1a1b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0041_SJB_000-010860a
+    span:
+    - body
+    - 0
+    - 6189
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:9f8030c8d40ab3e6c040fbf27864ddf567c76ca7c8c1dc34980f1e4ee862edc3
